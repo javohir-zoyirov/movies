@@ -41,7 +41,7 @@ export const Nav = () => {
                 }}
                 className="nav-item"
               >
-                <a className="nav-link" href="#">
+                <a className="nav-link fw-bold" href="#">
                   Kinolar
                 </a>
               </li>
@@ -51,7 +51,7 @@ export const Nav = () => {
                 }}
                 className="nav-item"
               >
-                <a className="nav-link" href="#">
+                <a className="nav-link fw-bold" href="#">
                   Multfilm
                 </a>
               </li>
@@ -61,7 +61,7 @@ export const Nav = () => {
                 }}
                 className="nav-item"
               >
-                <a className="nav-link" href="#">
+                <a className="nav-link fw-bold" href="#">
                   Seriallar
                 </a>
               </li>
@@ -71,7 +71,7 @@ export const Nav = () => {
                 }}
                 className="nav-item"
               >
-                <a className="nav-link" href="#">
+                <a className="nav-link fw-bold" href="#">
                   Kino yangiliklari
                 </a>
               </li>

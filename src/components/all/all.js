@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useContext, useEffect, useState } from "react";
-import { Nav } from "../nav/nav";
 import ApiContext from "../context/context";
 import { useNavigate } from "react-router-dom";
 import { Footer } from "../footer/footer";
@@ -29,12 +28,14 @@ const navigate = useNavigate()
         <div className="container">
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <img 
-            style={{ width: "100px", height: "100px" }}
-            className="navbar-brand object-cover rounded-5"
-            src="https://logos.flamingtext.com/Name-Logos/Movies-design-china-name.png"
-            alt="Logo"
-          />
+        <a className="navbar-brand" href="#">
+            <img
+              style={{ width: "100px", height: "100px" }}
+              className="object-cover rounded-5"
+              src="https://logos.flamingtext.com/Name-Logos/Movies-design-china-name.png"
+              alt="Logo"
+            />
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -145,7 +146,7 @@ const navigate = useNavigate()
           </div>
         </div>
       </nav>
-            <div className="row">
+            <div className="row" style={{minHeight:"100vh"}}>
                 {data
                     .filter(item => 
                         search === "" || item.Title.toLowerCase().includes(search.toLowerCase())

@@ -1,7 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom"
 import { Footer } from "../footer/footer"
 import "./aboutmovies.css"
-import { Movies } from "./movies"
 import { useContext, useEffect, useState } from "react"
 import ApiContext from "../context/context"
 export const AboutMovies = () => {
