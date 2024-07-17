@@ -1,0 +1,23 @@
+.spanli2 {
+    background: #021c39;
+    color: rgba(245, 245, 245, 0.666); 
+    padding: 10px 10px;
+    border-radius: 0 7px 7px 0;
+    margin-left: 0;
+    width: 100%;
+}
+.spanli {
+    padding: 10px 10px;
+    border-radius: 7px 0 0 7px;
+    margin-right: 0;
+    width: 150px;
+    color: rgba(245, 245, 245, 0.666);
+}
+.li {
+    display: flex;
+    margin-top: 7px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
